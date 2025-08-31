@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bolos da Tata</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fffdfd;
+      color: #333;
+    }
+
+    /* Cabeçalho */
+    header {
+      background-color: #f8e9f2; /* rosa clarinho */
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 3px solid #f06292; /* rosa mais forte */
+    }
+
+    header .logo {
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: #f06292; /* rosa mais forte */
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #f06292; /* rosa mais forte */
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #880e4f;
+    }
+
+    /* Banner inicial */
+    .banner {
+      background-color: #f48fb1; /* rosa médio */
+      padding: 60px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .banner h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .banner p {
+      font-size: 1.1rem;
+    }
+
+    /* Busca de lojas */
+    .busca {
+      padding: 30px;
+      text-align: center;
+      background-color: #e1f5fe; /* azul clarinho */
+    }
+
+    .busca h2 {
+      color: #0277bd;
+      margin-bottom: 20px;
+    }
+
+    select {
+      margin: 10px;
+      padding: 10px;
+      border: 2px solid #4fc3f7;
+      border-radius: 8px;
+      background-color: white;
+    }
+
+    /* Contato */
+    .contato {
+      padding: 40px;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .contato h2 {
+      color: #d81b60;
+      margin-bottom: 10px;
+    }
+
+    form {
+      max-width: 600px;
+      margin: auto;
+      text-align: left;
+    }
+
+    form input, form textarea, form select {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 2px solid #f48fb1;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    form button {
+      background-color: #d81b60;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #ad1457;
+    }
+
+    /* Rodapé */
+    footer {
+      background-color: #f8e9f2;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">Bolos da Tata</div>
+    <nav>
+      <a href="#">A Tata</a>
+      <a href="#">Produtos</a>
+      <a href="#">Lojas</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <h1>Muitas delícias pra você!</h1>
+    <p>Que tal adoçar cada momento com os bolos da Tata?</p>
+  </section>
+
+  <!-- Busca -->
+  <section class="busca">
+    <h2>Entregas para Guarulhos e região</h2>
+    </section>
+
+  <!-- Contato -->
+  <section class="contato">
+    <h2>Contato</h2>
+    <p>Buscamos oferecer diariamente a melhor experiência e sabor para você!</p>
+    <form>
+      <select>
+        <option>SAC - Serviço de Atendimento ao Cliente</option>
+        <option>Fábrica</option>>
+      </select>
+      
+      <input type="text" placeholder="Motivo do contato">
+      <input type="text" placeholder="Nome">
+      <input type="email" placeholder="E-mail">
+      <input type="tel" placeholder="Telefone">
+      <input type="text" placeholder="Cidade">
+      <textarea placeholder="Mensagem"></textarea>
+      <label>
+        <input type="checkbox"> Declaro que li e concordo com a Política de Privacidade
+      </label>
+      <br><br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    © 2025 Bolos da Tata - Feito com carinho, feito com amor!
+  </footer>
+
+</body>
+</html>
