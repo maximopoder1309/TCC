@@ -1,0 +1,44 @@
+/* --- Header com logo e navegação --- */
+header {
+    background: var(--aqua);
+    padding: 12px 8%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Logo alinhado à esquerda */
+.logo {
+    width: 220px;
+    height: auto;
+    flex: 0 0 auto;
+    margin-left: 80px;
+}
+
+/* Navegação centralizada no header */
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all var(--transition);
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: var(--rosa);
+}
+
+/* Fim do header */
